@@ -16,7 +16,7 @@ def main():
     print(f"=== Here's a report of {book_path} ===")
     print(f"{num_words} words were found in the document.")
     for i in char_list:
-        print(f"The '{i['name']}' character was found {i['num']} times")
+        print(f"{i['name']}: {i['num']}")
     print("=== End of report ===")
 
 def sort_dict(dict):
